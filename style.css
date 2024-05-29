@@ -1,0 +1,29 @@
+h1
+{
+    color: white;
+    background-color: black;
+}
+#show_sketch
+{
+    float: right;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count:infinite;
+}
+@keyframes example
+{
+    from{box-shadow: 5px 5px 35px lightgreen;}
+    to{box-shadow: 5px 5px 35px lightskyblue;}
+}
+body
+{
+    background-color:yellow ;
+}
